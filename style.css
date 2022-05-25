@@ -1,0 +1,107 @@
+.body, html{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  background-color:#e4e4ee;
+  color: #2a232a;
+}
+
+
+
+.titulo{
+  text-align: center;
+  background-color:#597175;
+  color: #2a232a;
+  padding: 10px;
+}
+.titulo h1{
+  margin: 0;
+}
+.titulo h3{
+  margin: 0;
+}
+
+
+
+.indice {
+  background-color: #bac5d7;
+  padding: 10px;
+}
+a {
+  color: #2a232a;
+}
+a:hover {
+  color: gray;
+}
+
+
+
+img {
+  max-width: 70%;
+  max-height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  }
+.caption_iguana {
+  text-align: center;
+  color: gray;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+
+
+.tab{
+  text-indent: 40px;
+}
+
+.contenidoInformacion p{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.infoParagraphs{
+  text-indent: 40px;
+  margin-left: 40px;
+}
+
+
+
+.listado{
+  margin-left: 40px;
+}
+.contenidoListado img{
+  max-width: auto;
+  max-height: 200px;
+}
+.row{
+  display: flex;  
+}
+.column1{
+  flex: 50%;
+  background-color: #bac5d7;
+  border: solid;
+  border-color: #e4e4ee;
+  padding: 10px;
+  margin-left: 50px;
+}
+.column2{
+  flex: 50%;
+  background-color: #bac5d7;
+  border: solid;
+  border-color: #e4e4ee;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+
+
+.button {
+  background-color: #bac5d7;
+  border-color: #bac5d7;
+  margin: 20px;
+  margin-top: 40px;
+}
